@@ -3,8 +3,10 @@
     --orange: #ec5242; 
     --grey: #d3d3d3;
     --font-lato: 'Lato', 'san-serif';
+    --font-poppins: 'poppins';
     --font-cocogoose: 'COCOGOOSE', 'san-serif';
     --hamburger-color: #545454;
+    --margin-top-sections: 100px
 }
 
 body {
@@ -79,7 +81,7 @@ body {
     background-color: var(--orange);
     width: 50px;
     height: 1px;
-    margin: 16px auto;
+    margin: 1px auto;
     z-index: 3;
 }
 
@@ -172,4 +174,128 @@ body {
 
 .arrow {
     width: 12px;
+}
+
+/* The about page styles */
+
+.about-description {
+    border: 2px solid var(--grey);
+}
+
+.about-topic {
+    font-family: var(--font-cocogoose);
+    font-size: 2rem;
+    color: var(--orange);
+}
+
+.mail a{
+    font-family: var(--font-lato);
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: var(--black);
+}
+
+.mail:hover a {
+    text-decoration: none;
+}
+
+.logo-text {
+    font-family: var(--font-lato);
+    font-weight: 600;
+}
+
+.logo-decide {
+    font-family: var(--font-lato);
+    font-size: 0.8rem;
+}
+
+.logo-wrapper {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-wrapper {
+    margin: 0 auto;
+}
+
+.logo {
+    width: 200px;
+}
+
+.graduates {
+    margin-top: var(--margin-top-sections)
+}
+
+.graduates-header {
+    font-family: var(--font-lato);
+    font-weight: 700;
+}
+
+.gradPhoto, .gradPhotoes  {
+    margin: 0 auto;
+    height: 240px;
+    padding: 20px;
+    padding-top: 95px;
+    background-image: url(./Graphics/grads/dev.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+
+}
+
+.gradPhoto:hover {
+    background-size: 500px;
+}
+
+.gradPhoto::before, .gradPhotoes::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f03b27a2;
+    z-index: -1;
+
+}
+
+.gradPhotoes {
+    background-image: url(./Graphics/grads/devs.jpg);
+}
+
+.year {
+    font-family: var(--font-poppins);
+    font-weight: 600;
+    color: #fff;
+}
+
+.below-year {
+    font-family: var(--font-lato);
+    color: #fff;
+}
+
+.thepartners {
+    background-color: var(--black);
+}
+
+.partner {
+    font-family: var(--font-lato);
+    font-weight: 500;
+    color: #fff;
+}
+
+
+.companies img {
+    width: 100px;
+}
+
+.logo-end {
+    width: 100px;
+}
+
+.end-text {
+    font-family: var(--font-lato);
+    font-size: 0.7rem;
+    font-weight: 600;
 }
