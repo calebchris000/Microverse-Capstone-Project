@@ -9,10 +9,19 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title>WebDesignCo</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- Font for lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&display=swap"
+        rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE" rel="stylesheet"
+        type="text/css" />
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-secondary">
+    <nav class="navigation navbar navbar-expand-lg w-100 top-0 position-sticky z-3">
         <div class="conatiner-fluid">
             <div class="hamburger ms-3">
                 <div class="line"></div>
@@ -22,7 +31,113 @@
         </div>
     </nav>
 
-    
+    <section class="top-section mx-4 mt-5">
+        <h1 class="first-text h4">"Hello! Web Developers."
+        </h1>
+        <h2 class="topic">BUILDING RESPONSIVE WEBSITES FROM SCRATCH
+        </h2>
+
+        <p class="topic-description mx-3 my-4">
+            This comprehensive course offers instruction in HTML, CSS, CSS Flexbox, and responsive design principles
+            through practical exercises and real-world projects. Students will develop professional-grade,
+            device-optimized websites. The course aims to build expertise in website design and development.
+        </p>
+
+        <p class="h1 date fs-5">2023.02.14(TUE) ~ 2023.11.1(WED)</p>
+        <p class="location ">@National Conference Hall of Nairobi, and more</p>
+    </section>
+
+    <section class="main  mt-5 px-3 py-5">
+        <h3 class="main-program text-center text-white fw-bold">Main Program</h3>
+        <h3 class="baseline text-center text-white fw-bold"></h3>
+
+        <div class="d-flex flex-column">
+
+            <div class="block my-1 d-flex align-items-center px-3 py-3">
+                <div class=""><img class="icon" src="./Graphics/icons/lecture.svg" alt=""></div>
+                <p class="program text-center ms-3">Graphic Design Course</p>
+                <p class="program-description text-white">Adobe Creative Cloud (Photoshop, Illustrator,
+                    XD), Sketch,
+                    Figma, Affinity Designer, GIMP</p>
+            </div>
+
+            <div class="block my-1 d-flex align-items-center px-3 py-3">
+                <div class=""><img class="icon" src="./Graphics/icons/workshop.svg" alt=""></div>
+                <p class="program text-center ms-3">UI/UX Design Tools</p>
+                <p class="program-description text-white">Adobe Creative Cloud (Photoshop, Illustrator,
+                    XD), Sketch,
+                    Figma, Affinity Designer, GIMP</p>
+            </div>
+
+            <div class="block my-1 d-flex align-items-center px-3 py-3">
+                <div class=""><img class="icon" src="./Graphics/icons/forum.svg" alt=""></div>
+                <p class="program text-center ms-3">Forum to Discuss</p>
+                <p class="program-description text-white">Adobe Creative Cloud (Photoshop, Illustrator,
+                    XD), Sketch,
+                    Figma, Affinity Designer, GIMP</p>
+            </div>
+
+            <div class="block my-1 d-flex align-items-center px-3 py-3">
+                <div class=""><img class="icon" src="./Graphics/icons/ignite.svg" alt=""></div>
+                <p class="program text-center ms-3">HTML/CSS Editors</p>
+                <p class="program-description text-white">Tools for editing HTML/CSS code, making web design easier.
+                    Examples: Sublime Text, Atom, Brackets, Dreamweaver, Notepad++.</p>
+            </div>
+
+            <button class="join p-4 mx-5 mt-5">Join WebDev Bootcamp 2023</button>
+        </div>
+    </section>
+
+    <section class="mt-5 px-4 py-5 bg-white">
+        <h3 class="main-program text-center text-black fw-bold">Featured Speakers</h3>
+        <h3 class="baseline text-center text-white fw-bold"></h3>
+
+        <div class="my-5 d-flex align-items-center">
+            <div class="people-combo position-relative">
+                <img class="chess" src="./Graphics/checkers.svg" alt="">
+                <img src="./Graphics/people/nia.jpg" alt=""
+                    class="people ms-3 me-3 position-relative">
+            </div>
+           
+
+            <div class="">
+                <p class="people-name mb-1">Nia Johnson.</p>
+                <p class="people-description">Senior Web Developer at Google.</p>
+                <p class="expand-description">
+                    Senior web developer at Google, delivering exceptional websites with expertise in HTML, 
+                    CSS, JavaScript, and web development technologies.
+                </p>
+            </div>
+
+            
+        </div>
+
+        <div class="my-5 d-flex align-items-center">
+            <div class="people-combo position-relative">
+                <img class="chess" src="./Graphics/checkers.svg" alt="">
+                <img src="./Graphics/people/kenneth.jpg" alt=""
+                    class="people ms-3 me-3 position-relative">
+            </div>
+           
+
+            <div class="">
+                <p class="people-name mb-1">Kenneth Williams.</p>
+                <p class="people-description">UI/UX Designer at Kentucky.</p>
+                <p class="expand-description">
+                    Senior UI/UX web Designer and Advicer, delivering exceptional websites with expertise in HTML, 
+                    CSS, JavaScript, and web development technologies.
+                </p>
+            </div>
+
+            
+        </div>
+
+        
+            <button class="more w-100 py-2 d-flex justify-content-center align-items-center">
+                More
+                <img class="arrow ms-2" src="./Graphics/icons/arrowdown.svg" alt="">
+            </button>
+    </section>
 </body>
 
 </html>
