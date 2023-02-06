@@ -1,9 +1,17 @@
 :root {
     --black: #272a31; 
-    --black: #272a31; 
-    --grey: #d3d3d3; 
+    --orange: #ec5242; 
+    --grey: #d3d3d3;
+    --font-lato: 'Lato', 'san-serif';
+    --font-cocogoose: 'COCOGOOSE', 'san-serif';
+    --hamburger-color: #545454;
 }
 
+body {
+    background-image: url(./Graphics/background.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
 
 .hamburger {
     width: 50px;
@@ -17,8 +25,151 @@
 .line {
     display: block;
     margin: 2px auto;
-    background-color: var(--black);
+    background-color: var(--hamburger-color);
     width: 32px;
     height: 6px;
+}
 
+.first-text {
+    font-family: var(--font-lato);
+    color: var(--orange);
+}
+
+.topic {
+    font-family: var(--font-cocogoose);
+    font-size: 2rem;
+    color: transparent;
+    background-image: url(./Graphics/textback.jpg);
+    background-size: cover;
+    background-clip:text;
+    -webkit-background-clip: text;
+}
+
+.topic-description {
+    font-family: var(--font-lato);
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: var(--black);
+}
+
+.date {
+    color: var(--black);
+    font-family: var(--font-cocogoose);
+}
+
+.location {
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.main {
+    background-color: var(--black);
+    position: relative;
+    background-image: url(./Graphics/cross.svg);
+    background-size: 20px;
+}
+
+.main-program {
+    font-family: var(--font-lato);
+    z-index: 3;
+}
+
+.baseline {
+    background-color: var(--orange);
+    width: 50px;
+    height: 1px;
+    margin: 16px auto;
+    z-index: 3;
+}
+
+.block {
+    background-color: #63687748;
+}
+
+.icon {
+    width: 28px;
+}
+
+.program {
+    font-family: var(--font-lato);
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--orange);
+    margin: 0 auto;
+}
+
+.program-description {
+    font-family: var(--font-lato);
+    font-weight: 500;
+    font-size: 0.6rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.chess {
+    width: 65px;
+    position: absolute;
+    bottom: 70px;
+}
+
+.people {
+    width: 120px;
+}
+
+.people::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(./Graphics/light-chees-background.svg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+}
+
+
+.people-name {
+    font-family: var(--font-lato);
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.people-description {
+    font-family: var(--font-lato);
+    color: var(--orange);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.expand-description {
+    font-family: var(--font-lato);
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.join {
+    background-color: var(--orange);
+    outline: none;
+    border: none;
+    color: var(--grey);
+}
+
+.join:active {
+    background-color: #f03b27;
+}
+
+.more {
+    color: var(--black);
+    font-family: var(--font-lato);
+    border: 2px solid var(--grey);
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.arrow {
+    width: 12px;
 }
