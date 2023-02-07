@@ -48,6 +48,35 @@ body {
     color: var(--orange);
 }
 
+.nav-logo {
+    display: none;
+}
+
+.cam-btn {
+    margin-left: 16px;
+    border: 2px solid var(--orange);
+    color: var(--orange);
+    border-radius: 0px;
+}
+
+.items {
+    position: relative;
+    left: 1rem;
+    top:8px;
+}
+
+.items li a{
+    text-decoration: none;
+    color: var(--black);
+    font-family: var(--font-lato);
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.items li:nth-child(1) a {
+    color: var(--orange);
+}
+
 .topic {
     font-family: var(--font-cocogoose);
     font-size: 3rem;
@@ -309,36 +338,46 @@ body {
 }
 
 .logo-end {
-    width: 100px;
+    width: 160px;
+}
+
+.ende {
+margin-left: 50px;
 }
 
 .end-text {
     font-family: var(--font-lato);
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-weight: 600;
+    width: 50%;
+}
+
+.end {
+    display: none;
 }
 
 @media screen and (min-width: 768px) {
     .top-panel {
         background-color: var(--black);
-        height: 30px;
+        height: 26px;
         display: flex;
         justify-content: end;
     }
 
     .top-text {
         font-family: var(--font-lato);
-        font-weight: 520;
+        font-weight: 500;
+        font-size: 0.75rem;
     }
 
     .social {
         margin-left: 18px;
-        width: 12px;
+        width: 8px;
     }
 
     .twitter {
         margin-right: 100px;
-        width: 20px;
+        width: 16px;
     }
 
     .navigation {
@@ -346,6 +385,7 @@ body {
     }
 
     .nav-logo {
+        display: block;
         margin-left: 70px;
         width: 240px;
 
@@ -353,7 +393,7 @@ body {
 
     .cam-btn {
         margin-left: 200px;
-        border: 2px solid var(--orange);
+        border: 4px solid var(--orange);
         color: var(--orange);
         border-radius: 0px;
     }
@@ -393,8 +433,17 @@ body {
         width: 50%;
     }
 
+    .date {
+        font-size: 1.5rem;
+    }
+
     .block {
         width: 160px;
+        transition: all 0.3s ease;
+    }
+
+    .block:hover {
+        transform: scale(1.05);
     }
     .blocke {
         border: 2px solid var(--grey);
@@ -432,4 +481,7 @@ body {
         display: block;
     }
     
+    .end {
+        display: block;
+    }
 }
