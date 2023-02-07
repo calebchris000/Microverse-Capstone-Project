@@ -4,7 +4,7 @@
     --grey: #d3d3d3;
     --font-lato: 'Lato', 'san-serif';
     --font-poppins: 'poppins';
-    --font-cocogoose: 'COCOGOOSE', 'san-serif';
+    --font-cocogoose: 'Signika Negative', 'san-serif';
     --hamburger-color: #545454;
     --hover-text-decoration: 'none';
     --margin-top-sections: 100px;
@@ -85,6 +85,7 @@ body {
     background-size: cover;
     background-clip:text;
     -webkit-background-clip: text;
+    font-weight: 900;
 }
 
 .topic-description,
@@ -98,6 +99,7 @@ body {
 .date {
     color: var(--black);
     font-family: var(--font-cocogoose);
+    font-weight: 800;
 }
 
 .location {
@@ -233,6 +235,7 @@ body {
 .about-topic {
     font-family: var(--font-cocogoose);
     font-size: 2rem;
+    font-weight: 900;
     color: var(--orange);
 }
 
