@@ -21,23 +21,47 @@
 </head>
 
 <body>
-    <nav class="navigation navbar navbar-expand-lg w-100 top-0 position-sticky z-3">
+    <div class="top-panel">
+        <img class="social" src="./Graphics/social/facebook.svg" alt="facebook">
+        <img class="social twitter" src="./Graphics/social/twitter.svg" alt="facebook">
+
+        <ul class="top-text d-flex ms-2 text-white me-5 pe-5 list-unstyled justify-content-center mt-1">
+            <li class="me-3"><a class="text-decoration-none text-white" href="">English</a></li>
+            <li class="me-3"><a class="text-decoration-none text-white" href="">My Page</a></li>
+            <li class="me-3"><a class="text-decoration-none text-white" href="">Log Out</a></li>
+        </ul>
+    </div>
+    <nav class="navigation navbar navbar-expand-lg w-100 py-3 top-0 position-sticky z-3">
         <div class="conatiner-fluid">
-            <div class="hamburger ms-3">
+            <div class="hamburger ms-3 navbar-toggler" data-bs-toggle="collapse" data-bs-target="#items"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <div class="line"></div>
                 <div class="line"></div>
                 <div class="line"></div>
+            </div>
+
+            <div class="collapse navbar-collapse" id="items">
+               <div class="nav-logo"><img class="nav-logo w-50" src="./Graphics/logo.svg" alt=""></div>
+                <ul class="items d-flex list-unstyled text-white">
+                    <li class="nav-item me-5"><a href="" class="navlink active" aria-current="page" href="#">About</a></li>
+                    <li class="nav-item me-5"><a href="" class="navlink active">Contact</a></li>
+                    <li class="nav-item me-5"><a href="" class="navlink active">Join</a></li>
+                    <li class="nav-item me-5"><a href="" class="navlink active">Sponsor</a></li>
+                    <li class="nav-item me-5"><a href="" class="navlink active">News</a></li>
+                </ul>
+
+                <a href="" class="cam-btn btn">WebDev Bootcamp</a>
             </div>
         </div>
     </nav>
 
     <section class="top-section mx-4 mt-5">
-        <h1 class="first-text h4">"Hello! Web Developers."
+        <h1 class="first-text h3">"Hello! Web Developers."
         </h1>
         <h2 class="topic">WEBDEVS CO. BOOTCAMP 2023
         </h2>
 
-        <p class="topic-description mx-3 my-4">
+        <p class="topic-description my-4">
             This comprehensive course offers instruction in HTML, CSS, CSS Flexbox, and responsive design principles
             through practical exercises and real-world projects. Students will develop professional-grade,
             device-optimized websites. The course aims to build expertise in website design and development.
@@ -51,92 +75,143 @@
         <h3 class="main-program text-center text-white fw-bold">Main Program</h3>
         <h3 class="baseline text-center text-white fw-bold"></h3>
 
-        <div class="d-flex flex-column">
+        <div class="align-items-center d-flex flex-column mt-5">
+            <div class="d-flex flex-column flex-md-row">
 
-            <div class="block my-1 d-flex align-items-center px-3 py-3">
-                <div class=""><img class="icon" src="./Graphics/icons/lecture.svg" alt=""></div>
-                <p class="program text-center ms-3">Graphic Design Course</p>
-                <p class="program-description text-white">Adobe Creative Cloud (Photoshop, Illustrator,
-                    XD), Sketch,
-                    Figma, Affinity Designer, GIMP</p>
+                <div class="block my-1 d-flex flex-md-column align-items-center px-3 py-3 me-md-2">
+                    <div class=""><img class="icon" src="./Graphics/icons/lecture.svg" alt=""></div>
+                    <p class="program text-center mt-sm-3 ms-3">Graphic Design Course</p>
+                    <p class="program-description text-white">Adobe Creative Cloud (Photoshop, Illustrator,
+                        XD), Sketch,
+                        Figma, Affinity Designer, GIMP</p>
+                </div>
+
+                <div class="block my-1 d-flex flex-md-column align-items-center px-3 py-3 me-md-2">
+                    <div class=""><img class="icon" src="./Graphics/icons/workshop.svg" alt=""></div>
+                    <p class="program text-center mt-sm-3 ms-3">UI/UX Design Tools</p>
+                    <p class="program-description text-white">Adobe Creative Cloud (Photoshop, Illustrator,
+                        XD), Sketch,
+                        Figma, Affinity Designer, GIMP</p>
+                </div>
+
+                <div class="block blocke my-1 d-flex flex-md-column align-items-center px-3 py-3 me-md-2">
+                    <div class=""><img class="icon" src="./Graphics/icons/forum.svg" alt=""></div>
+                    <p class="program text-center mt-sm-3 ms-3">Forum to Discuss</p>
+                    <p class="program-description text-white">Adobe Creative Cloud (Photoshop, Illustrator,
+                        XD), Sketch,
+                        Figma, Affinity Designer, GIMP</p>
+                </div>
+
+                <div class="block my-1 d-flex flex-md-column align-items-center px-3 py-3 me-md-2">
+                    <div class=""><img class="icon" src="./Graphics/icons/ignite.svg" alt=""></div>
+                    <p class="program text-center mt-sm-3 ms-3">HTML/CSS Editors</p>
+                    <p class="program-description text-white">Tools for editing HTML/CSS code, making web design easier.
+                        Examples: Sublime Text, Atom, Brackets, Dreamweaver, Notepad++.</p>
+                </div>
             </div>
 
-            <div class="block my-1 d-flex align-items-center px-3 py-3">
-                <div class=""><img class="icon" src="./Graphics/icons/workshop.svg" alt=""></div>
-                <p class="program text-center ms-3">UI/UX Design Tools</p>
-                <p class="program-description text-white">Adobe Creative Cloud (Photoshop, Illustrator,
-                    XD), Sketch,
-                    Figma, Affinity Designer, GIMP</p>
-            </div>
-
-            <div class="block my-1 d-flex align-items-center px-3 py-3">
-                <div class=""><img class="icon" src="./Graphics/icons/forum.svg" alt=""></div>
-                <p class="program text-center ms-3">Forum to Discuss</p>
-                <p class="program-description text-white">Adobe Creative Cloud (Photoshop, Illustrator,
-                    XD), Sketch,
-                    Figma, Affinity Designer, GIMP</p>
-            </div>
-
-            <div class="block my-1 d-flex align-items-center px-3 py-3">
-                <div class=""><img class="icon" src="./Graphics/icons/ignite.svg" alt=""></div>
-                <p class="program text-center ms-3">HTML/CSS Editors</p>
-                <p class="program-description text-white">Tools for editing HTML/CSS code, making web design easier.
-                    Examples: Sublime Text, Atom, Brackets, Dreamweaver, Notepad++.</p>
-            </div>
-
-            <button class="join p-4 mx-5 mt-5">Join WebDev Bootcamp 2023</button>
+            <button class="join p-4 mt-5">Join WebDev Bootcamp 2023</button>
+            <p class="desktop-buttone"><a href="" class="desktop-button">SEE THE WHOLE PROGRAM</a></p>
         </div>
     </section>
 
-    <section class="mt-5 px-4 py-5 bg-white">
-        <h3 class="main-program text-center text-black fw-bold">Featured Speakers</h3>
+    <section class="speakers mt-5 px-4 py-5 bg-white">
+        <h3 class="main-program text-center text-black">Featured Speakers</h3>
         <h3 class="baseline text-center text-white fw-bold"></h3>
 
-        <div class="my-5 d-flex align-items-center">
-            <div class="people-combo position-relative">
-                <img class="chess" src="./Graphics/checkers.svg" alt="">
-                <img src="./Graphics/people/nia.jpg" alt=""
-                    class="people ms-3 me-3 position-relative">
-            </div>
-           
+        <div class="row">
+            <div class="my-5 d-flex align-items-center col-lg-6">
+                <div class="people-combo position-relative">
+                    <img class="chess" src="./Graphics/checkers.svg" alt="">
+                    <img src="./Graphics/people/nia.jpeg" alt="" class="people ms-3 me-3 position-relative">
+                </div>
 
-            <div class="">
-                <p class="people-name mb-1">Nia Johnson.</p>
-                <p class="people-description">Senior Web Developer at Google.</p>
-                <p class="expand-description">
-                    Senior web developer at Google, delivering exceptional websites with expertise in HTML, 
-                    CSS, JavaScript, and web development technologies.
-                </p>
+
+                <div class="">
+                    <p class="people-name mb-1">Nia Johnson.</p>
+                    <p class="people-description">Senior Web Developer at Google.</p>
+                    <p class="expand-description">
+                        Senior web developer at Google, delivering exceptional websites with expertise in HTML,
+                        CSS, JavaScript, and web development technologies.
+                    </p>
+                </div>
+
+
             </div>
 
-            
+            <div class="my-5 d-flex align-items-center col-lg-6">
+                <div class="people-combo position-relative">
+                    <img class="chess" src="./Graphics/checkers.svg" alt="">
+                    <img src="./Graphics/people/kenneth.jpeg" alt="" class="people ms-3 me-3 position-relative">
+                </div>
+                <div class="">
+                    <p class="people-name mb-1">Kenneth Williams.</p>
+                    <p class="people-description">UI/UX Designer at Kentucky.</p>
+                    <p class="expand-description">
+                        Senior UI/UX web Designer and Advicer, delivering exceptional websites with expertise in HTML,
+                        CSS, JavaScript, and web development technologies.
+                    </p>
+                </div>
+            </div>
         </div>
 
-        <div class="my-5 d-flex align-items-center">
-            <div class="people-combo position-relative">
-                <img class="chess" src="./Graphics/checkers.svg" alt="">
-                <img src="./Graphics/people/kenneth.jpg" alt=""
-                    class="people ms-3 me-3 position-relative">
-            </div>
-           
+        <div class=" second row">
+            <div class="my-5 d-flex align-items-center col-lg-6">
+                <div class="people-combo position-relative">
+                    <img class="chess" src="./Graphics/checkers.svg" alt="">
+                    <img src="./Graphics/people/Mark.jpeg" alt="" class="people ms-3 me-3 position-relative">
+                </div>
 
-            <div class="">
-                <p class="people-name mb-1">Kenneth Williams.</p>
-                <p class="people-description">UI/UX Designer at Kentucky.</p>
-                <p class="expand-description">
-                    Senior UI/UX web Designer and Advicer, delivering exceptional websites with expertise in HTML, 
-                    CSS, JavaScript, and web development technologies.
-                </p>
+
+                <div class="">
+                    <p class="people-name mb-1">Mark Ruffalo.</p>
+                    <p class="people-description">Senior Web Developer at Google.</p>
+                    <p class="expand-description">
+                        Senior web developer at Google, delivering exceptional websites with expertise in HTML,
+                        CSS, JavaScript, and web development technologies.
+                    </p>
+                </div>
+
+
             </div>
 
-            
+            <div class="my-5 d-flex align-items-center col-lg-6">
+                <div class="people-combo position-relative">
+                    <img class="chess" src="./Graphics/checkers.svg" alt="">
+                    <img src="./Graphics/people/Amy.jpeg" alt="" class="people ms-3 me-3 position-relative">
+                </div>
+                <div class="">
+                    <p class="people-name mb-1">Amy Smith.</p>
+                    <p class="people-description">UI/UX Designer at Kentucky.</p>
+                    <p class="expand-description">
+                        Senior UI/UX web Designer and Advicer, delivering exceptional websites with expertise in HTML,
+                        CSS, JavaScript, and web development technologies.
+                    </p>
+                </div>
+
+            </div>
+
         </div>
 
-        
-            <button class="more w-100 py-2 d-flex justify-content-center align-items-center">
-                More
-                <img class="arrow ms-2" src="./Graphics/icons/arrowdown.svg" alt="">
-            </button>
+        <button class="more w-100 py-2 d-flex d-lg-none justify-content-center align-items-center">
+            More
+            <img class="arrow ms-2" src="./Graphics/icons/arrowdown.svg" alt="">
+        </button>
+    </section>
+
+    <section class="partner d-none d-lg-block my-4">
+        <div class="card thepartners pb-4 rounded-0 m-0">
+            <h3 class="partner text-center mt-5">Partner</h3>
+            <h3 class="baseline fw-bold"></h3>
+
+            <div class="companies d-flex justify-content-center">
+                <img class="pe-3 ms-3 py-4" src="./Graphics/partners/mozilla.svg" alt="">
+                <img class="pe-3 ms-3" src="./Graphics/partners/google.svg" alt="">
+                <img class="pe-3 ms-2" src="./Graphics/partners/naver.svg" alt="">
+                <img class="pe-3 ms-3" src="./Graphics/partners/daumkakao.svg" alt="">
+                <img class="pe-3 ms-5" src="./Graphics/partners/airbnb.svg" alt="">
+            </div>
+        </div>
     </section>
 </body>
 
