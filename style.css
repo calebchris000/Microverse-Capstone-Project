@@ -87,7 +87,8 @@ body {
     -webkit-background-clip: text;
 }
 
-.topic-description {
+.topic-description,
+.topic-description-about {
     font-family: var(--font-lato);
     font-size: 0.85rem;
     font-weight: 400;
@@ -280,19 +281,15 @@ body {
 }
 
 .gradPhoto, .gradPhotoes  {
-    margin: 0 auto;
     height: 240px;
     padding: 20px;
     padding-top: 95px;
     background-image: url(./Graphics/grads/dev.jpg);
     background-size: cover;
     position: relative;
-    z-index: -1;
+    width: 100%;
+    z-index: 0;
 
-}
-
-.gradPhoto:hover {
-    background-size: 500px;
 }
 
 .gradPhoto::before, .gradPhotoes::before {
@@ -483,5 +480,52 @@ margin-left: 50px;
     
     .end {
         display: block;
+    }
+
+    /* About page */
+
+    .about-topic,
+    .topic-description-about {
+        text-align: center;
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .about-first {
+        display: none;
+    }
+
+    .contact-us {
+      margin: 0 auto;
+    }
+
+    .gradPhoto,
+    .gradPhotoes {
+    width: 400px;
+
+    }
+
+    .logo-wrapper {
+        align-items: center;
+        width: fit-content;
+    }
+
+    .card {
+        border-radius: 0;
+        z-index: -1;
+    }
+
+    .companies {
+        margin: 0 auto;
+    }
+
+    .reserved {
+        background-color: var(--black);
+        align-items: center;
+        padding: 80px;
+    }
+
+    .end-text {
+        color: var(--grey);
     }
 }
