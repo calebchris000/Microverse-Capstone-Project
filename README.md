@@ -39,6 +39,12 @@
 **JAVASCRIPT**
 **Bootstrap**
 
+### Key Features
+
+- **[Ability to navigate to the About page and back with the implemented link]**
+- **[The menu functionality was added with the use of Bootstrap]**
+- **[The Speaker section of the page is dynamically created with JavaScript]**
+
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://calebchris000.github.io/Microverse-Capstone-Project/)
@@ -83,6 +89,11 @@ After cloning the project, you can run the html file in your browser
    - LinkedIn: [.caleb.nwaizu](https://www.linkedin.com/in/caleb-nwaizu-b815aa23b/)
    - Twitter: [calebchris000](https://twitter.com/calebchris000)
 
+## 🔭 Future Features
+
+- [ ] **[The remaining links will be working soon :)]**
+- [ ] **[I will add subtle animations to some parts of the page to improve the UX]**
+- [ ] **I will also optimize the page so it's adaptable to even the smallest of screens]**
 
 
 ## ⭐️ Show your support <a name="support"></a>
