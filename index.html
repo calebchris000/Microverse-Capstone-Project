@@ -33,7 +33,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body onresize="gridify()">
     <div class="top-panel">
         <img class="social" src="./Graphics/social/facebook.svg" alt="facebook">
         <img class="social twitter" src="./Graphics/social/twitter.svg" alt="facebook">
@@ -133,81 +133,12 @@
         <h3 class="main-program text-center text-black">Featured Speakers</h3>
         <h3 class="baseline text-center text-white fw-bold"></h3>
 
-        <div class="row">
-            <div class="my-5 d-flex align-items-center col-lg-6">
-                <div class="people-combo position-relative">
-                    <img class="chess" src="./Graphics/checkers.svg" alt="">
-                    <img src="./Graphics/people/nia.jpeg" alt="" class="people ms-3 me-3 position-relative">
-                </div>
+        <div class="main-speakers my-5">
 
-
-                <div class="">
-                    <p class="people-name mb-1">Nia Johnson.</p>
-                    <p class="people-description">Senior Web Developer at Google.</p>
-                    <p class="expand-description">
-                        Senior web developer at Google, delivering exceptional websites with expertise in HTML,
-                        CSS, JavaScript, and web development technologies.
-                    </p>
-                </div>
-
-
-            </div>
-
-            <div class="my-5 d-flex align-items-center col-lg-6">
-                <div class="people-combo position-relative">
-                    <img class="chess" src="./Graphics/checkers.svg" alt="">
-                    <img src="./Graphics/people/kenneth.jpeg" alt="" class="people ms-3 me-3 position-relative">
-                </div>
-                <div class="">
-                    <p class="people-name mb-1">Kenneth Williams.</p>
-                    <p class="people-description">UI/UX Designer at Kentucky.</p>
-                    <p class="expand-description">
-                        Senior UI/UX web Designer and Advicer, delivering exceptional websites with expertise in HTML,
-                        CSS, JavaScript, and web development technologies.
-                    </p>
-                </div>
             </div>
         </div>
 
-        <div class=" second row">
-            <div class="my-5 d-flex align-items-center col-lg-6">
-                <div class="people-combo position-relative">
-                    <img class="chess" src="./Graphics/checkers.svg" alt="">
-                    <img src="./Graphics/people/Mark.jpeg" alt="" class="people ms-3 me-3 position-relative">
-                </div>
-
-
-                <div class="">
-                    <p class="people-name mb-1">Mark Ruffalo.</p>
-                    <p class="people-description">Senior Web Developer at Google.</p>
-                    <p class="expand-description">
-                        Senior web developer at Google, delivering exceptional websites with expertise in HTML,
-                        CSS, JavaScript, and web development technologies.
-                    </p>
-                </div>
-
-
-            </div>
-
-            <div class="my-5 d-flex align-items-center col-lg-6">
-                <div class="people-combo position-relative">
-                    <img class="chess" src="./Graphics/checkers.svg" alt="">
-                    <img src="./Graphics/people/Amy.jpeg" alt="" class="people ms-3 me-3 position-relative">
-                </div>
-                <div class="">
-                    <p class="people-name mb-1">Amy Smith.</p>
-                    <p class="people-description">UI/UX Designer at Kentucky.</p>
-                    <p class="expand-description">
-                        Senior UI/UX web Designer and Advicer, delivering exceptional websites with expertise in HTML,
-                        CSS, JavaScript, and web development technologies.
-                    </p>
-                </div>
-
-            </div>
-
-        </div>
-
-        <button class="more w-100 py-2 d-flex d-lg-none justify-content-center align-items-center">
+        <button id='seemore' class="more w-100 py-2 d-flex d-lg-none justify-content-center align-items-center">
             More
             <img class="arrow ms-2" src="./Graphics/icons/arrowdown.svg" alt="">
         </button>
@@ -238,6 +169,8 @@
             </p>
         </div>
     </section>
+
+    <script src="./app.js"></script>
 </body>
 
 </html>
