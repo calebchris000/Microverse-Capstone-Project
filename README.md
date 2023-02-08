@@ -3,9 +3,9 @@
 > This project contains the HTML, CSS and Javascript capstone project.
 
 # Project Name
-## **WEBDEV CO. BOOTCAMP**
+## **WEBDEV INTERNATIONAL BOOTCAMP**
 
-WEBDEV CO BOOTCAMP is a Web development company based in Nigeria that offers classes to people new to programming.
+WEBDEV INTERNATIONAL BOOTCAMP is a Web development company based in Nigeria that offers classes to people new to programming.
 
 ## Built With
 
