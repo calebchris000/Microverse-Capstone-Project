@@ -41,12 +41,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
 - [Live Demo Link](https://calebchris000.github.io/Microverse-Capstone-Project/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+- [Link to Loom](https://www.loom.com/share/11b478166c8349619aecad13f6037192)
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
