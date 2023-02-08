@@ -97,7 +97,6 @@ body {
   color: transparent;
   background-image: url(./Graphics/textback.jpg);
   background-size: cover;
-  background-clip: text;
   -webkit-background-clip: text;
   font-weight: 900;
 }
