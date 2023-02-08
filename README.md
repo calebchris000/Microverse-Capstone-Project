@@ -1,59 +1,111 @@
-# Microverse-Capstone-Project
 
-> This project contains the HTML, CSS and Javascript capstone project.
+## Microverse Capstone Project
 
-# Project Name
-## **WEBDEV INTERNATIONAL BOOTCAMP**
+<!-- TABLE OF CONTENTS -->
 
-WEBDEV INTERNATIONAL BOOTCAMP is a Web development company based in Nigeria that offers classes to people new to programming.
+# 📗 Table of Contents
 
-## Built With
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-- HTML
-- CSS
-- Bootstrap
-- Javascript
+<!-- PROJECT DESCRIPTION -->
 
-## Getting Started
+# 📖 [WEB DEV INTERNATIONAL] <a name="about-project"></a>
 
-To get a local copy up and running follow these simple example steps:
+> WEBDEV INTERNATIONAL is a company based in Nigeria that offers lessons to people new to programming for free.
 
-``git clone https://github.com/calebchris000/Microverse-Capstone-Project.git``
-   ``cd Microverse-Capstone-Project``
 
-## Author
+## 🛠 Built With <a name="built-with"></a>
 
-👤 **Caleb Nwaizu**
+**HTML**
+**CSS**
+**JAVASCRIPT**
+**Bootstrap**
 
-- GitHub: [@calebchris000](https://github.com/calebchris000)
-- Twitter: [@calebchris000](https://twitter.com/calebchris000)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/caleb-nwaizu-b815aa23b/)
+## 🚀 Live Demo <a name="live-demo"></a>
 
-## LIVE DEMO
-[Live Website](https://calebchris000.github.io/Microverse-Capstone-Project/)
+> Add a link to your deployed project.
 
-[Live video demo](https://www.loom.com/share/5fd02d52ef264bb59ef59a644f841b28)
+- [Live Demo Link](https://calebchris000.github.io/Microverse-Capstone-Project/)
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Contributions, issues, and feature requests are welcome!
+<!-- GETTING STARTED -->
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b 'branchname`)
-3. Commit your Changes (`git commit -m 'Add some branchname'`)
-4. Push to the Branch (`git push origin branchname`)
-5. Open a Pull Request
+## 💻 Getting Started <a name="getting-started"></a>
 
-Feel free to check the [issues page](../../issues/).
 
-## Acknowledgments
+> To get a local copy up and running, follow these steps.
 
-[Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) whose template was used as inspiration for this project.
+### Prerequisites
 
-## Show your support
+In order to run this project you need:
 
-Give a ⭐️ if you like this project!
 
-## 📝 License
+```sh
+ npm install
+ npm init
+```
 
-This project is [MIT](./MIT.md) licensed.
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  cd my-folder
+  git clone https://github.com/calebchris000/Microverse-Capstone-Project.git
+```
+
+
+### Usage
+
+After cloning the project, you can run the html file in your browser
+
+
+## 👥 Caleb Nwaizu <a name="authors"></a>
+
+> Mention all of the collaborators of this project.
+
+   - GitHub: [calebchris000](https://github.com/calebchris000)
+   - LinkedIn: [.caleb.nwaizu](https://www.linkedin.com/in/caleb-nwaizu-b815aa23b/)
+   - Twitter: [calebchris000](https://twitter.com/calebchris000)
+
+
+
+## ⭐️ Show your support <a name="support"></a>
+
+> Write a message to encourage readers to support your project
+
+If you like this project, kindly star this repository. Thanks!
+
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+All credit is given to Cindy Shin in Behance, who inspired the design of this project
+
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT]([./LICENSE](https://choosealicense.com/licenses/mit/)) licensed.
+
