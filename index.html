@@ -7,22 +7,170 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+
     <title>WebDesignCo</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- Font for lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&display=swap"
+        rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE" rel="stylesheet"
+        type="text/css" />
+
+        <!-- Font for Quicksand, as COCOGOOSE is not free -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-secondary">
+<body onresize="gridify()">
+    <div class="top-panel">
+        <img class="social" src="./Graphics/social/facebook.svg" alt="facebook">
+        <img class="social twitter" src="./Graphics/social/twitter.svg" alt="facebook">
+
+        <ul class="top-text d-flex ms-2 text-white me-5 pe-5 list-unstyled justify-content-center mt-1">
+            <li class="me-3"><a class="text-decoration-none text-white" href="">English</a></li>
+            <li class="me-3"><a class="text-decoration-none text-white" href="">My Page</a></li>
+            <li class="me-3"><a class="text-decoration-none text-white" href="">Log Out</a></li>
+        </ul>
+    </div>
+    <nav class="navigation navbar navbar-expand-lg w-100 py-3 top-0 position-sticky z-3">
         <div class="conatiner-fluid">
-            <div class="hamburger ms-3">
+            <div class="hamburger ms-3 navbar-toggler border-0" data-bs-toggle="collapse" data-bs-target="#items"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <div class="line"></div>
                 <div class="line"></div>
                 <div class="line"></div>
             </div>
+
+            <div class="collapse navbar-collapse" id="items">
+                <div class="nav-logo"><img class="nav-logo w-50" src="./Graphics/logo.svg" alt=""></div>
+                <ul class="items d-flex list-unstyled text-white">
+                    <li class="nav-item me-5"><a href="./about.html" class="navlink active" aria-current="page">About</a>
+                    </li>
+                    <li class="nav-item me-5"><a href="" class="navlink active">Contact</a></li>
+                    <li class="nav-item me-5"><a href="" class="navlink active">Join</a></li>
+                    <li class="nav-item me-5"><a href="" class="navlink active">Sponsor</a></li>
+                    <li class="nav-item me-5"><a href="" class="navlink active">News</a></li>
+                </ul>
+
+                <a href="" class="cam-btn btn">WebDev Bootcamp</a>
+            </div>
         </div>
     </nav>
 
-    
+    <section class="top-section mx-4 mt-5">
+        <h1 class="first-text h3">"Hello! Web Developers."
+        </h1>
+        <h2 class="topic">WEBDEVS INTERNATIONAL<br> BOOTCAMP 2023
+        </h2>
+
+        <p class="topic-description my-4">
+            This comprehensive course offers instruction in HTML, CSS, CSS Flexbox, and responsive design principles
+            through practical exercises and real-world projects. Students will develop professional-grade,
+            device-optimized websites. The course aims to build expertise in website design and development.
+        </p>
+
+        <p class="h1 date">2023.02.14(TUE) ~ 2023.11.1(WED)</p>
+        <p class="location ">@National Conference Hall of Nairobi, and more</p>
+    </section>
+
+    <section class="main  mt-5 px-3 py-5">
+        <h3 class="main-program text-center text-white fw-bold">Main Program</h3>
+        <h3 class="baseline text-center text-white fw-bold"></h3>
+
+        <div class="align-items-center d-flex flex-column mt-5">
+            <div class="d-flex flex-column flex-md-row">
+
+                <div class="block my-1 d-flex flex-md-column align-items-center px-3 py-3 me-md-2">
+                    <div class=""><img class="icon" src="./Graphics/icons/lecture.svg" alt=""></div>
+                    <p class="program text-center mt-sm-3 ms-3">Graphic Design Course</p>
+                    <p class="program-description text-white">Adobe Creative Cloud (Photoshop, Illustrator,
+                        XD), Sketch,
+                        Figma, Affinity Designer, GIMP</p>
+                </div>
+
+                <div class="block my-1 d-flex flex-md-column align-items-center px-3 py-3 me-md-2">
+                    <div class=""><img class="icon" src="./Graphics/icons/workshop.svg" alt=""></div>
+                    <p class="program text-center mt-sm-3 ms-3">UI/UX Design Tools</p>
+                    <p class="program-description text-white">Adobe Creative Cloud (Photoshop, Illustrator,
+                        XD), Sketch,
+                        Figma, Affinity Designer, GIMP</p>
+                </div>
+
+                <div class="block blocke my-1 d-flex flex-md-column align-items-center px-3 py-3 me-md-2">
+                    <div class=""><img class="icon" src="./Graphics/icons/forum.svg" alt=""></div>
+                    <p class="program text-center mt-sm-3 ms-3">Forum to Discuss</p>
+                    <p class="program-description text-white">Adobe Creative Cloud (Photoshop, Illustrator,
+                        XD), Sketch,
+                        Figma, Affinity Designer, GIMP</p>
+                </div>
+
+                <div class="block my-1 d-flex flex-md-column align-items-center px-3 py-3 me-md-2">
+                    <div class=""><img class="icon" src="./Graphics/icons/ignite.svg" alt=""></div>
+                    <p class="program text-center mt-sm-3 ms-3">HTML/CSS Editors</p>
+                    <p class="program-description text-white">Tools for editing HTML/CSS code, making web design easier.
+                        Examples: Sublime Text, Atom, Brackets, Dreamweaver, Notepad++.</p>
+                </div>
+            </div>
+
+            <button class="join p-4 mt-5">Join WebDev Bootcamp 2023</button>
+            <p class="desktop-buttone"><a href="" class="desktop-button">SEE THE WHOLE PROGRAM</a></p>
+        </div>
+    </section>
+
+    <section class="speakers mt-5 px-4 py-5 bg-white">
+        <h3 class="main-program text-center text-black">Featured Speakers</h3>
+        <h3 class="baseline text-center text-white fw-bold"></h3>
+
+        <div class="main-speakers my-5">
+
+            </div>
+        </div>
+
+        <button id='seemore' class="more w-100 py-2 d-flex d-lg-none justify-content-center align-items-center">
+            More
+            <img class="arrow ms-2" src="./Graphics/icons/arrowdown.svg" alt="">
+        </button>
+    </section>
+
+    <section class="partner d-none d-lg-block my-4">
+        <div class="card thepartners pb-4 rounded-0 m-0">
+            <h3 class="partner text-center mt-5">Partner</h3>
+            <h3 class="baseline fw-bold"></h3>
+
+            <div class="companies d-flex justify-content-center">
+                <img class="pe-3 ms-3 py-4" src="./Graphics/partners/mozilla.svg" alt="">
+                <img class="pe-3 ms-3" src="./Graphics/partners/google.svg" alt="">
+                <img class="pe-3 ms-2" src="./Graphics/partners/naver.svg" alt="">
+                <img class="pe-3 ms-3" src="./Graphics/partners/daumkakao.svg" alt="">
+                <img class="pe-3 ms-5" src="./Graphics/partners/airbnb.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="end">
+        <div class="internal d-flex justify-content-center my-4 ">
+            <img class="logo-end" src="./Graphics/logo.svg" alt="">
+            <p class="end-text ende">
+               <strong>2023 WebDev Co. Nigeria.<br></strong>
+                All rights reserved. This company claims full ownership over its content and
+                brand, and any unauthorized use or duplication is strictly prohibited.
+            </p>
+        </div>
+    </section>
+
+    <script src="./app.js"></script>
 </body>
 
 </html>
